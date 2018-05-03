@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pretty Cake Bakery</title>
+    <meta name="author" content="Eric Grant">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="mainStyle.css">
+    <script src="mainScript.js"></script>
+    <link rel="icon" href="images/cake.png">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img id="headerLogo" src="images/cake.png" alt="Company Cake Logo"></a>
+        <h1>Pretty Cake Bakery</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+            <div class="dropdown">
+                <a href="product.html">Products</a>
+                <div class="dropdown-content">
+                    <a href="cakes.html" style="z-index:11;">Cakes</a>
+                    <a href="cookies.html" style="z-index:12;">Cookies</a>
+                    <a href="donuts.html" style="z-index:13;">Donuts</a>
+                </div>
+            </div>
+            </li>
+            <li><a class="active" href="order.html">Catering</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Catering Requests</h1><br>
+        <form id="myForm" method="get">
+            <label>Full Name: </label>
+            <input type="input" id="personName" placeholder="Josh Smith" autofocus><br><br>
+
+            <label>E-Mail: </label>
+            <input type="email" id="theEmail" placeholder="JoshSmith@mail.com"><br><br>
+            
+            <label>Event Name: </label>
+            <input type="input" id="eventName" placeholder="Sons Birthday"><br><br>
+
+            <label>Event Location: </label>
+            <input type="input" id="eventName" placeholder="123 6th St. Melbourne, FL 32904" style="width:200px;"><br><br>
+
+            <label>Date of Event: </label>
+            <input type="date" name="theDate" id="theDate"><br><br>
+
+            <label>Select a Product: </label>
+            <select name="product" id="product">
+                <option value="cakes">Cakes</option>
+                <option value="donuts">Donuts</option>
+                <option value="cookies">Cookies</option>
+            </select>
+            <br><br>
+
+            <label>Quantity of Product: </label>
+            <input type="number" id="numOfProduct" style="width:50px;"><br><br>
+
+            <label>Extra Notes: </label><br>
+            <textarea name="extraNotes" id="extraNotes" cols="40" rows="6"></textarea>
+            <br><br>
+
+            <input type="submit" id="submit" value="Submit" onclick="displayMessage()" style="font-size:20px;padding:0px 5px;">
+        </form>
+    </main>
+
+    <footer>
+        <small>Eric Grant &copy 2017 - 3756 Preston Street Wichita, KS 67213</small>
+    </footer>
+</body>
+</html>

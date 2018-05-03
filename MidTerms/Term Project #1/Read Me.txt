@@ -1,0 +1,4 @@
+My site follows normal conventions and should not require any outside knowledge to naviagte.
+It would be best to start on the home page then explore the pages including information before visiting one of the two form pages.
+The two forms serve different purposes to the organization.
+The options in the drop down menu can also be accessed by clicking on the nav button that contains the drop down and clicking on the image links.

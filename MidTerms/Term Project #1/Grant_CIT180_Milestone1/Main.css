@@ -1,0 +1,185 @@
+/*reset rule*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*body*/
+body{
+    background: #666;
+}
+
+/*header*/
+header{
+    text-align: center;
+}
+
+/*nav*/
+nav{
+    text-align: center;
+}
+
+nav div{
+    display: inline;
+}
+
+nav ul{
+    display: inline-block;
+    border-radius: 3px;
+    border-bottom: 2px solid #F2F26D;
+}
+
+nav li{
+    display: inline;
+}
+
+nav li a{
+    font-size: 25px;
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav li a:active{
+    color: #eee;
+}
+
+.dropdown li{
+    padding-bottom: 5px; 
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    padding-top: 5px; 
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    z-index: 100;
+    background-color: #666;
+    border-radius: 3px;
+    border-right: 2px solid #F2F26D;
+    border-left: 2px solid #F2F26D;
+}
+
+/*main*/
+main{
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px; 
+    max-width: 900px;
+    color: #fff;
+}
+
+h2 span { 
+    color: white; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+ }
+
+main h2{
+    color: #F2F26D;
+}
+
+#main-header{
+    column-count: 2;
+    column-gap: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    border-bottom: 2px solid #F2F26D;
+}
+
+#main-body{
+    column-count: 3;
+    column-gap: 25px;
+    padding-bottom: 25px;
+    border-radius: 3px;
+}
+
+#main-footer{
+    column-count: 4;
+    column-gap: 25px;
+    padding-bottom: 25px;
+    border-radius: 3px;
+}
+
+main img{
+    width: 100%;
+}
+
+/*forms*/
+form{
+    font-size: 1.5em;
+
+}
+
+form input{
+    font-size: 1em;
+    margin-bottom: 10px; 
+}
+
+form textarea{
+    font-size: 1em;
+    margin-bottom: 10px; 
+}
+
+form select{
+    font-size: 1em;
+    margin-bottom: 10px; 
+}
+
+
+/*footer*/
+footer{
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #666;
+    margin-top: 55px;
+}
+
+footer ul{
+    display: inline-block;
+    border-radius: 3px;
+    border-top: 2px solid #F2F26D;
+}
+
+footer li{
+    display: inline;
+}
+
+footer li a{
+    font-size: 15px;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer li a:active{
+    color: #eee;
+}
+
+/*classes*/
+.important{
+    color: #F2F26D;
+}
+
+.important:active{
+    color: #e2F26D;
+}
+
+.imageWithText{
+    position: relative; 
+    width: 100%;
+}
+
+.imageWithText h2 { 
+    position: absolute; 
+    top: 75%; 
+    left: 0; 
+    width: 100%; 
+ }

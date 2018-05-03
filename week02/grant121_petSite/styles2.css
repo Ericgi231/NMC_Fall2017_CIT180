@@ -1,0 +1,13 @@
+#div1{
+    border: 2px solid red;
+}
+
+#div2{
+    border: 2px solid rgb(0, 128, 0);
+    float: left;
+}
+
+#div3{
+    border: 2px solid blue;
+    float:right;
+}

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffaa;
+    color: #000000;
+}
+
+header{
+    position: relative;
+    background-color: #663333;
+    border-bottom: 2px solid black;
+    top: 0;
+    text-align: center;
+    color: white;
+}
+
+main{
+    position: absolute;
+    display: inline-block;
+    width: 83%;
+    right: 0;
+    text-align: center;
+    margin: 10px;
+}
+
+main h1{
+    font-size: 50px;
+}
+
+main p{
+    font-size: 20px;
+}
+
+footer{
+    position: absolute;
+    background-color: #663333;
+    border-top: 2px solid black;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+nav{
+    position: absolute;
+    display: block;
+    border-right: 2px solid black;
+    width: 15%;
+    height: 90%;
+    left: 0;
+    background-color: orange;
+}
+
+#navButton{
+    background-color: #663333;
+    display: block;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+#navButton:hover{
+    font-weight: bold;
+    background-color: #443333
+}
+
+#navButton, a:link{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+aside{
+    position: absolute;
+    display: block;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 15%;
+    left: 0;
+    background-color: #663333;
+    color: white;
+}
+
+#pet{
+    position: relative;
+    display: inline-block;
+}

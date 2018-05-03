@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pretty Cake Bakery</title>
+    <meta name="author" content="Eric Grant">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="mainStyle.css">
+    <script src="mainScript.js"></script>
+    <link rel="icon" href="images/cake.png">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img id="headerLogo" src="images/cake.png" alt="Company Cake Logo"></a>
+        <h1>Pretty Cake Bakery</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+            <div class="dropdown">
+                <a class="active" href="product.html">Products</a>
+                <div class="dropdown-content">
+                    <a href="cakes.html" style="z-index:11;">Cakes</a>
+                    <a href="cookies.html" style="z-index:12;">Cookies</a>
+                    <a href="donuts.html" style="z-index:13;">Donuts</a>
+                </div>
+            </div>
+            </li>
+            <li><a href="order.html">Catering</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Our Products</h1>
+        <div id="cakePics">
+            <div id="cake">
+                <h2>Cakes</h2>
+                <a href="cakes.html"><img src="images/cakes.jpg" alt="cakes"></a>
+            </div>
+            <div id="cake">
+                <h2>Cookies</h2>
+                <a href="cookies.html"><img src="images/cookies.jpg" alt="cookies"></a>
+            </div>
+            <div id="cake">
+                <h2>Donuts</h2>
+                <a href="donuts.html"><img src="images/donuts.jpg" alt="donuts"></a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <small>Eric Grant &copy 2017 - 3756 Preston Street Wichita, KS 67213</small>
+    </footer>
+</body>
+</html>

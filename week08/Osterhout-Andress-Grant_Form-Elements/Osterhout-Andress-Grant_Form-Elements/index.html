@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+</head>
+<body>
+    <center>
+        <form id="myForm">
+            <!-- This is a p tag that has a placeholder and autfocus' the cursor -->
+            First Name <input type="input" id="fName" placeholder="Noah" autofocus><br>
+            Choose a color <input type="color" name="colorThe" id="colorThe"><br>
+            Select a date <input type="date" name="theDate" id="theDate"><br>
+            Email <input type="email" name="theEmail" id="theEmail"><br>
+            Choose a file <input type="file" name="thierFile" id="theirFile"><br>
+            Choose a Number <input type="number" name="theNum" id="theNum"><br>
+
+            <br>Male <input type="radio" name="gender" id="maleGender" value="Male"><br>
+            Female <input type="radio" name="gender" id="femaleGender" value="Female"><br>
+            Other <input type="radio" name="gender" id="otherGender" value="Other"><br>
+
+            <br>Dog <input type="checkbox" name="pets" id="petssss" value="dogs"><br>
+            Cat <input type="checkbox" name="pets" id="petssss" value="cats"><br>
+            Lizard <input type="checkbox" name="pets" id="petssss" value="lizard"><br>
+
+            <!-- This is a select box aka drop down -->
+            <br><select name="cars" id="cars">
+                <option value="ford">Ford</option>
+                <option value="Papa Johns">Papa Johns</option>
+                <option value="Tesla">Tesla</option>
+                <option value="GMC">GMC</option>
+            </select>
+            <br>
+            
+
+            <!-- This resets the page and reloads it because we are to lazy to re autofocus -->
+            <input type="reset" value="reset" onClick="window.location.reload()">
+            <input type="submit" id="submit" value="submit" onclick="getFName()">
+        </form>
+    </center>
+</body>
+</html>

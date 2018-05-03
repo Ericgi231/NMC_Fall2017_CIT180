@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightcyan;
+}
+
+#elCalculator{
+    margin: auto;
+    margin-top: 100px; 
+}
+
+#elCalculator td{
+    border: 2px solid black;
+    background: wheat;
+    text-align: center;
+    font-size: 4em;
+    width: 100px;
+    height: 100px;
+}
+
+#elCalculator #buttons td:hover{
+    background: white;
+}
